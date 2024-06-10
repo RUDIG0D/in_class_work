@@ -2,9 +2,9 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route("/user")
-def hello_user():
-    return "Hello user"
+@app.route("/moderator")
+def hello_moderator():
+    return "Hello moderator"
 
 
 if __name__ == "__main__":
